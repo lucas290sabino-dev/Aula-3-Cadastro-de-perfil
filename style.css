@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-color: white;
+    pad: 16px;
+
+
+    .container{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px;
+        width: 300px;
+        box-shadow: 0 0 20px #000;
+        border-radius: 4px;
+    }
+}
+.galeria {
+    column-count: 4;
+    column-count: 16px;
+
+}
+.galeria img{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.formulario input{
+    display: flex;
+}
+.formulario input{
+    width: 5%;
+    padding: 16 px;
+    margin-bottom: 16px;
+ 
+}
+
+.formulario button{
+    height: 100px;
+    padding: 16px;
+}
