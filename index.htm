@@ -6,21 +6,26 @@
     <link rel="stylesheet" href="./style.css">
     <title>Cadastro de Perfis</title>
 </head>
-<body>  
-    <form class="formulario"> 
+<body>
+    <h1>Cadastro de Perfis</h1>
+    <form class="formulário">
+        <input type="text" class="campo" placeholder="Nome">
+        <input type="text" class="campo" placeholder="Cargo">
+        <input type="text" class="campo" placeholder="URL da Imagem">
+        <button type="submit">Cadadastrar</button>
     </form>
-    <form class="formulario">
-        <input type="text" id="foto" placeholder="NOME">
-        <input type="text" id="foto" placeholder="CARGO">
-        <input type="text" id="foto" placeholder="IMAGEM">
-        <input tpye="text" id="foto" placeholder="CAD.">
-    </form>
-</body>
-
-    <div class="card" id="card">
-        <img src="./img/img1.jpg" alt="">
-        <img src="./img/img2 (2).png" alt="">
-        <img src="./img/img3.png" alt="">
-    </div>
+    <div class="card-container">
+        <div class="card">
+            <img src="./img/img1.jpg" alt="Foto perfil 1">
+            <p>Lucas - Desenvolvedor</p>
+        </div>
+        <div class="card">
+            <img src="./img/img2 (2).png" alt=" Foto perfil 2">
+            <p>Maria - Designer</p>
+        </div>
+        <div class="card">
+            <img src="./img/img3.png" alt="Foto de perfil 3">
+            <p>João - Analista</p>
+        </div>
 </body>
 </html>
