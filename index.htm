@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
     <title>Cadastro de Perfis</title>
 </head>
 <body>
     <h1>Cadastro de Perfis</h1>
-    <form class="formulário">
-        <input type="text" class="campo" placeholder="Nome">
-        <input type="text" class="campo" placeholder="Cargo">
-        <input type="text" class="campo" placeholder="URL da Imagem">
-        <button type="submit">Cadadastrar</button>
+    <form id="formulario">
+        <input  id="nome" type="text"  placeholder="Nome"  plahonder="Digite seu nome">
+        <input  id="cargo" type="text" placeholder="Dígite seu cargo...">
+        <input  id="imagem" type="text"  placeholder="Dígite o endereço da imagem" >
+        <button id="cadastrar" type="button">Cadadastrar</button>
     </form>
-    <div class="card-container">
+    <div class="card-container" id="container-cards">
         <div class="card">
             <img src="./img/img1.jpg" alt="Foto perfil 1">
             <p>Lucas - Desenvolvedor</p>
@@ -27,5 +28,6 @@
             <img src="./img/img3.png" alt="Foto de perfil 3">
             <p>João - Analista</p>
         </div>
+        <div id="galeria"></div> 
 </body>
 </html>
